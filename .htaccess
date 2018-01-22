@@ -1,0 +1,3 @@
+# Rewrite --- felixmichel.org/dist => felixmichel.org
+
+RewriteRule ^felixmichel\.org/dist$ /felixmichel.org?&%{QUERY_STRING}
