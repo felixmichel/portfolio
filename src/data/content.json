@@ -1,0 +1,17 @@
+[
+  {
+    "intro": "Hallo. Mein Name ist Felix Michel, ich bin Journalist und Coder aus der Schweiz und lebe zurzeit in Marseille. Hier ist eine Auswahl an Projekten, an denen ich beteiligt war.",
+    "main": [
+      {
+        "title": "Steigende Meere",
+        "image": "img/sharing.jpg",
+        "description": "Über 700.000 Pegeldaten weltweit belegen: Der Meeresspiegel steigt. Der Klimawandel ist an den Küsten angekommen. Das Meer wird Strände fortspülen, Inseln versenken, Ebenen überschwemmen. Mit dramatischen Folgen für hunderte Millionen Menschen."
+    },
+    {
+        "title": "Steigende Meere",
+        "image": "img/sharing.jpg",
+        "description": "Über 700.000 Pegeldaten weltweit belegen: Der Meeresspiegel steigt. Der Klimawandel ist an den Küsten angekommen. Das Meer wird Strände fortspülen, Inseln versenken, Ebenen überschwemmen. Mit dramatischen Folgen für hunderte Millionen Menschen."
+    }
+] 
+}
+]

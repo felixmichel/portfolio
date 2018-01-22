@@ -1,0 +1,117 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: $primary-color; 
+}
+
+body {
+  background-color: white;
+  padding: $vertical-padding;
+  margin: 0 auto;
+  font-family: $sans-font;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header {
+  font-family: $mono-font;
+}
+
+.brand {
+  font-size: 26px;
+}
+
+.byline {
+  font-size: 18px;
+  color: #AAAAAA;
+}
+
+nav {
+   font-size: 18px;
+   font-family: $mono-font;
+   line-height: 24px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    color: darken($primary-color, 10%);
+    border-bottom: 2px solid darken($primary-color, 10%);
+  }
+}
+
+.active {
+  color: darken($primary-color, 10%);
+  border-bottom: 2px solid darken($primary-color, 10%);
+}
+
+// grid
+.flex-grid {
+  max-width: $L;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.full {
+  flex-basis: 100%;
+}
+
+.twothirds {
+  flex-basis: calc(100%  / 3 * 2)
+}
+
+.onethird {
+  line-height: 24px;
+  color: $primary-color;
+  flex-basis: calc(100%  /3);
+  font-family: $mono-font;
+}
+
+.col {
+  padding: $vertical-padding;
+  @include MQ(M) {
+    flex-basis: 100%;
+    padding: $vertical-padding / 2;
+  }
+}
+
+// teaser styling
+.teaser {
+  width: 100%;
+}
+
+.intro {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.description {
+  padding-top: $vertical-padding;
+  font-size: 20px;
+  line-height: 24px;
+  @include MQ(M) {
+    padding-top: $vertical-padding / 2;
+  }
+}
+
+.title {
+  padding-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
