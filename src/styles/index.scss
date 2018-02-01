@@ -8,17 +8,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  background: $primary-color; 
-}
-
 body {
   background-color: white;
-  padding: $vertical-padding;
+  padding: $vertical-padding / 2;
   margin: 0 auto;
   font-family: $sans-font;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 1.4;
+  @include MQ(S) {
+    font-size: 18px;
+  }
 }
 
 header {
@@ -27,6 +26,7 @@ header {
 
 .brand {
   font-size: 26px;
+  line-height: 22px;
 }
 
 .byline {
@@ -37,26 +37,78 @@ header {
 nav {
    font-size: 18px;
    font-family: $mono-font;
-   line-height: 24px;
 }
 
-li {
-  display: inline-block;
-  padding-right: 5px;
-}
-
-a {
-  color: $primary-color;
-  text-decoration: none;
-  &:hover {
-    color: darken($primary-color, 10%);
-    border-bottom: 2px solid darken($primary-color, 10%);
+.social {
+  @include MQ(M) {
+    display: none;
   }
 }
 
-.active {
-  color: darken($primary-color, 10%);
-  border-bottom: 2px solid darken($primary-color, 10%);
+.nav-element {
+  color: $primary-color;
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary-color;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  @include MQ(M) {
+    margin-right: 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link {
+  position: relative;
+  color: $primary-color;
+  width: 0%;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary-color;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.is-active:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 // grid
@@ -77,10 +129,10 @@ a {
 }
 
 .onethird {
-  line-height: 24px;
   color: $primary-color;
   flex-basis: calc(100%  /3);
   font-family: $mono-font;
+  font-size: 16px;
 }
 
 .col {
@@ -91,22 +143,30 @@ a {
   }
 }
 
+footer {
+  font-family: $mono-font;
+  font-size: 16px;
+}
+
 // teaser styling
 .teaser {
   width: 100%;
 }
 
-.intro {
-  font-size: 20px;
-  line-height: 24px;
+figcaption {
+  color: #AAAAAA;
+  font-size: 14px;
+
+}
+
+raw {
+  display: block;
 }
 
 .description {
-  padding-top: $vertical-padding;
-  font-size: 20px;
-  line-height: 24px;
+  padding-top: $vertical-padding / 2;
   @include MQ(M) {
-    padding-top: $vertical-padding / 2;
+    padding-top: $vertical-padding / 4;
   }
 }
 
@@ -114,4 +174,18 @@ a {
   padding-bottom: 0;
   font-size: 24px;
   font-weight: bold;
+}
+
+.img-circle {
+    display: block;
+    margin: 0 0 $vertical-padding 0;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.hide-desktop {
+  display: none;
+  @include MQ(M) {
+    display: inline-block;
+  }
 }

@@ -1,17 +1,74 @@
 [
   {
-    "intro": "Hallo. Mein Name ist Felix Michel, ich bin Journalist und Coder aus der Schweiz und lebe zurzeit in Marseille. Hier ist eine Auswahl an Projekten, an denen ich beteiligt war.",
+  	"nav": [
+    { "title": "Projekte", "id": "projects", "content": "Hallo. Ich entwerfe und entwickle interaktive Grafiken und Datenvisualisierungen. Hier sind meine Lieblingsprojekte, an denen ich in den letzten Jahren bei <a class='link' href='https://correctiv.org/' target='_blank'>Correctiv</a>, <a class='link' href='https://flourish.studio/' target='_blank'>Flourish</a> und der <a class='link' href='https://tageswoche.ch/' target='_blank'>TagesWoche</a> mitgearbeitet habe." },
+    { "title": "Über mich", "id": "about", "content": "Zur Zeit arbeite ich als Datenjournalist und News Developer bei der <a href='https://www.tageswoche.ch' class='link' target='_blank'>TagesWoche</a>. Ich setze mich intensiv mit den Themen Datenjournalismus, Storytelling und Geschäftsmodelle im Online-Journalismus auseinander. Redaktionell liegt mein Schwerpunkt auf datengetriebenen Geschichten. Ich beschaffe und analysiere Daten sowohl für eigene Artikel als auch für Artikel anderer Redaktionsmitglieder. Zudem kümmere ich mich um die Visualisierung der Daten in Form von Tabellen, Diagrammen und Karten.<br><br>Von August 2017 bis Januar 2018 habe ich für <a href='https://flourish.studio/' class='link' target='_blank'>Flourish</a>, ein Datenvisualisierungs-Studio in London, gearbeitet. In dieser Zeit habe ich unterschiedliche Visualisierungen (<a href='https://app.flourish.studio/@flourish/election-results-chart' target='_blank' class='link'>Balkendiagramm</a>, <a href='https://app.flourish.studio/@flourish/slope-chart' target='_blank' class='link'>Slope-Chart</a>, <a href='https://app.flourish.studio/@felixmichel/bubble-chart' target='_blank' class='link'>Bubble-Chart</a>, <a href='https://app.flourish.studio/@flourish/map-austria-communities' target='_blank' class='link'>Maps</a>) entworfen und entwickelt, Daten analysiert und Inhalte für Medienorganisationen aufbereitet.<br><br>Im Oktober 2016 habe ich von <a class='link' href='https://medium.com/google-news-lab/introducing-our-news-lab-fellows-in-germany-switzerland-and-austria-6167f1fb0a67' target='_blank'>Google News Lab</a> ein Stipendium erhalten, um als Datenjournalist bei Correctiv zu arbeiten. In dieser Zeit habe ich Daten zum Meeresspiegel analysiert und in einem <a href='https://searise.correctiv.org/de/' target='_blank' class='link'>interaktiven Scrollytelling</a> publiziert.<br><br>Ich habe einen geisteswissenschaftlichen Hintergrund. Nach einem Bachelor in Übersetzen an der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) habe ich ein Jahr an der Uni Zürich Computerlinguistik und Arabistik studiert. Anschliessend habe ich Sprach- und Kommunikationswissenschaften an der Uni Basel studiert und mit einem <a href='https://www.unibas.ch/de/Studium/Studienangebot/Studiengaenge-faecher/Sprache-und-Kommunikation-MA.html' target='_blank' class='link'>Master of Arts in Sprache und Kommunikation</a> abgeschlossen." },
+    { "title": "Kontakt", "id": "contact", "content": "Sie haben eine Frage oder wollen mit mir zusammenarbeiten? Schreiben Sie mir eine E-Mail an <a class='link' href='mailto:hallo@felixmichel.org'>hallo(at)felixmichel.org</a> oder auch gerne eine <a href='https://keybase.io/felixmichel' target='_blank' class='link'>verschlüsselte Nachricht</a>." }
+    ],
     "main": [
       {
         "title": "Steigende Meere",
         "image": "img/sharing.jpg",
-        "description": "Über 700.000 Pegeldaten weltweit belegen: Der Meeresspiegel steigt. Der Klimawandel ist an den Küsten angekommen. Das Meer wird Strände fortspülen, Inseln versenken, Ebenen überschwemmen. Mit dramatischen Folgen für hunderte Millionen Menschen."
+        "description": "Im Rahmen eines <a class='link' href='https://newslab.withgoogle.com/fellowship-de' target='_blank'>Google News Lab Fellowships</a> habe ich beim gemeinnützigen Recherchezentrum Correctiv wissenschaftliche Daten zum Meeresspiegel recherchiert, analysiert und gemeinsam mit <a class='link' href='http://simonjockers.de/' target='_blank'>Simon Jockers</a> visualisiert. Insgesamt haben wir 700'000 Pegeldaten weltweit untersucht und konnten in einem Scrollytelling zeigen, wie stark die Meere in den letzten Jahren angestiegen sind.",
+        "links": [
+        	{ "url": "https://searise.correctiv.org/de/", "text": "zum Artikel" },
+        	{ "url": "https://github.com/correctiv/sealevel-notebook", "text": "Code & Analyse" },
+        	{ "url": "https://medium.com/@felixmichel/werkstattbericht-steigende-meere-110676954a4b", "text": "Werkstattbericht" }
+        	
+        ]
     },
     {
-        "title": "Steigende Meere",
-        "image": "img/sharing.jpg",
-        "description": "Über 700.000 Pegeldaten weltweit belegen: Der Meeresspiegel steigt. Der Klimawandel ist an den Küsten angekommen. Das Meer wird Strände fortspülen, Inseln versenken, Ebenen überschwemmen. Mit dramatischen Folgen für hunderte Millionen Menschen."
+        "title": "Bundestagswahl 2017",
+        "image": "img/bundestagswahl2017.jpg",
+        "description": "Für Flourish, ein Data Visualisation Studio aus London, habe ich für die Bundestagswahl 2017 zusammen mit <a class='link' href='http://daanlouter.com/' target='_blank'>Daan Louter</a> eine Übersichtsseite mit Live-Resultaten erstellt. Die Resultate haben wir direkt vom Bundeswahlleiter automatisiert bezogen und auf verschiedenen Karten sowie mit interaktiven Grafiken visualisiert. Wir konnten unseren Code erneut für die <a class='link' href='https://flourish.studio/examples/austrian-elections/' target='_blank'>Nationalratswahl 2017 in Österreich</a> verwenden und ebenfalls die Resultate live zugänglich machen.",
+        "links": [
+        	{ "url": "https://flourish.studio/examples/german-elections/", "text": "zur Übersichtsseite" },
+        	{ "url": "https://github.com/felixmichel/german-elections-data", "text": "Code & Analyse" }
+        ]
+    },
+    {
+        "title": "TagesWoche Relaunch",
+        "image": "img/StoryStream_TeaserLaunch_Desktop.jpg",
+        "credit": "Bild: getty images/Montage: Nils Fisch",
+        "description": "In einem dreiköpfigen Team beschäftigten wir uns über ein Jahr mit dem Relaunch der TagesWoche. Das Projekt umfasste Brainstorming, CMS-Evaluation, Interaktionsdesign, visuelles Design, Inhaltsmigration und Entwicklung. Die TagesWoche verwendet nun ein performantes, Wordpress basiertes System mit einem <a class='link' href='https://beta.frontkit.io/' target='_blank'>WYSIWIG-Editor</a> für die Inhaltserstellung. Zudem verfügt die neue Webseite über ein Community-Modul, das wir als <a class='link' href='https://github.com/felixmichel/german-elections-data' target='_blank'>Wordpress-Plugin</a> veröffentlicht haben.",
+        "links": [
+        	{ "url": "https://tageswoche.ch/form/editorial/das-ist-die-neue-tageswoche/", "text": "zum Artikel" },
+        	{ "url": "https://github.com/felixmichel/german-elections-data", "text": "zum Wordpress-Plugin" }
+        ]
+    },
+    {
+        "title": "City Guide",
+        "image": "img/soetwa.jpg",
+        "credit": "Bild: Hans-Jörg Walter",
+        "description": "«72 Stunden in Basel» – gemeinsam mit der Leserschaft haben wir einen interaktiven Reiseführer für Basel erstellt. Für den Reiseführer haben wir ein Mini-CMS mit Hilfe von AngularJS entwickelt. Die Redaktoren konnten den Inhalt in eine Google Tabelle einfüllen und Änderungen waren in Echtzeit sichtbar.",
+        "links": [
+        	{ "url": "http://interaktiv.tageswoche.ch/2016/cityguide/index.html", "text": "zum Reiseführer" },
+        	{ "url": "https://tageswoche.ch/allgemein/wir-spendieren-basel-einen-reisefuehrer/", "text": "über das Projekt" },
+        	{ "url": "https://github.com/TagesWoche/72_hours_Basel", "text": "zum Code" }
+
+        ]
+    },
+    {
+        "title": "Der Basler Immobilienmarkt im Überblick",
+        "image": "img/heroteaser.jpg",
+        "credit": "Bild: Hans-Jörg Walter",
+        "description": "In einer umfassenden Datenrecherche für die TagesWoche haben wir gezeigt, wo in Basel die meisten Häuser gekauft und verkauft werden. Wir haben die Daten automatisiert aus dem Kantonsblatt heruntergeladen. Da die Daten in einer wenig strukturierten Form vorlagen, mussten wir diese mit Python-Skripts in eine durchsuchbare und filterbare Form bringen. Die verwendeten Skripts und die gesamte Recherchearbeit sind auf Github zugänglich.",
+        "links": [
+        	{ "url": "https://tageswoche.ch/stadtleben/kaufen-und-verkaufen-der-basler-immobilienmarkt-im-ueberblick/", "text": "zum Artikel" },
+        	{ "url": "https://github.com/TagesWoche/grundbuch_scrape", "text": "Code & Analyse" }
+
+        ]
+    },
+    {
+        "title": "Frauen stimmen anders, Männer auch",
+        "image": "img/storyquiz.png",
+        "description": "Zusammen mit <a class='link' href='http://annawiederkehr.com/' target='_blank'>Anna Wiederkehr</a> und <a class='link' href='https://tageswoche.ch/author/andrea-fopp/' target='_blank'>Andrea Fopp</a> haben wir ein interaktives Quiz über das Abstimmungsverhalten von Frauen und Männern entworfen. Wir haben dafür Volksinitiativen in der Schweiz seit 1985 angesehen und die Abstimmungsergebnisse von einer Expertin einschätzen lassen. Die Nutzerinnen und Nutzer wurden beim Quiz mit Geschlechter-Stereotypen konfrontiert und mussten herausfinden, welche Vorurteile zutreffen.",
+        "links": [
+        	{ "url": "http://labs.tageswoche.ch/region/interaktives/storyQuiz/", "text": "zum Quiz" },
+        	{ "url": "https://github.com/felixmichel/storyQuiz", "text": "zum Code" }
+
+        ]
     }
-] 
+]
 }
 ]

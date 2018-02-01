@@ -4,9 +4,7 @@
         
         <nav class="col full">
             <ul>
-                <li><a class="active" href="#">Projekte</a></li>
-                <li><a href="#">Über mich</a></li>
-                <li><a href="#">Kontakt</a></li>
+            	<li each="{ nav_element in opts.content[0].nav }" class="nav-element { is-active: parent.isActiveNav(nav_element.id) }" onclick={ parent.toggleNav }>{nav_element.title}</li>
             </ul>
         </nav>
     </header>
@@ -14,39 +12,66 @@
 
         <!-- introduction -->
         	<div class="col twothirds">
-        		<p class="intro">{ opts.content[0].intro }<p>
+        		<p class="intro" if={active_nav_item == "projects"}>
+        			<raw content="{ opts.content[0].nav[0].content }"></raw>
+        		<p>
+        		<p class="intro" if={active_nav_item == "about"}>
+        			<img class="img-circle" src="img/FelixMichel.jpg">
+        			<raw content="{ opts.content[0].nav[1].content }"></raw>
+        		<p>
+        		<p class="intro" if={active_nav_item == "contact"}>
+        			<raw content="{ opts.content[0].nav[2].content }"></raw>
+        		<p>
         	</div>
     	
-    		<div class="col onethird">
-    			» <a>Twitter<br /></a>
-        		» <a>Github</a>
+    		<div class="col onethird social">
+    			» <a class="link" href="">Twitter<br /></a>
+        		» <a class="link" href="">Github</a>
     		</div>
 
-        <!-- content -->
-        <article class="flex-grid" each="{ entry in opts.content[0].main }">
+
+        <!-- projects -->
+        <article class="flex-grid" if={active_nav_item == "projects"} each="{ entry in opts.content[0].main }">
         	<div class="col full title">
-        		<h1>{ entry.title }</h1>
+        		<h1><a href="{ entry.links[0].url }" target="_blank">{ entry.title }</a></h1>
         	</div>
 
         	<div class="col twothirds">
-        		<img class="teaser" src={ entry.image }>
-        		<p class="description">{ entry.description }</p>
+        		<figure>
+        			<a href="{ entry.links[0].url }" target="_blank"><img class="teaser" src={ entry.image }></a>
+        			<figcaption>{ entry.credit }</figcaption>
+        		</figure>
+        		<raw class="description" content="{ entry.description }"></raw>
         	</div>
 
 	    	<div class="col onethird">
-	        	» <a>zum Artikel<br /></a>
-	        	» <a>Code & Analyse<br /></a>
-	        	» <a>Werkstattbericht</a>
+	        	<ul><li each="{ link in entry.links }">» <a class="link" href="{ link.url }" target="_blank">{ link.text }</a>
 	    	</div>
-        	
         </article>
-        
 
     </main>
 
-    <footer></footer>
+    <footer class="flex-grid">
+        <div class="col full">
+        	<div class="hide-desktop">
+        		<a class="link" href="https://twitter.com/felixmichel" target="_blank">Twitter</a>,
+        		<a class="link" href="https://github.com/felixmichel/" target="_blank"> Github</a>, </div>
+        	<a class="link" href="https://github.com/felixmichel/portfolio" target="_blank">Quellcode</a>, Credits: Nils Fisch (Portraitbild)
+        </div>
+    </footer>
 
     <script type="text/babel">
+
+    this.active_nav_item = "projects"
+
+    this.isActiveNav = (nav_item) => {
+    	return this.active_nav_item === nav_item
+	}
+
+	this.toggleNav = (e) => {
+    	this.active_nav_item = e.item.nav_element.id
+    	return true
+  	}
 
     </script>
 </portfolio-app>
