@@ -56,7 +56,7 @@
         	<div class="hide-desktop">
         		<a class="link" href="https://twitter.com/felixmichel" target="_blank">Twitter</a>,
         		<a class="link" href="https://github.com/felixmichel/" target="_blank"> Github</a>, </div>
-        	<a class="link" href="https://github.com/felixmichel/portfolio" target="_blank">Quellcode</a>, Credits: Nils Fisch (Portraitbild)
+        	<a class="link" href="https://github.com/felixmichel/portfolio" target="_blank">Quellcode des Portfolios</a><span if={active_nav_item == "about"}>, Bild: Nils Fisch</span>
         </div>
     </footer>
 

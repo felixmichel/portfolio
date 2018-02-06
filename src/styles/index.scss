@@ -181,6 +181,9 @@ raw {
     margin: 0 0 $vertical-padding 0;
     border-radius: 50%;
     width: 25%;
+    @include MQ(S) {
+      width: 45%;
+    }
 }
 
 .hide-desktop {
