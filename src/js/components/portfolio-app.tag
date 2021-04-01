@@ -16,7 +16,7 @@
         			<raw content="{ opts.content[0].nav[0].content }"></raw>
         		<p>
         		<p class="intro" if={active_nav_item == "about"}>
-        			<img class="img-circle" src="img/FelixMichel.jpg">
+        			<img class="img-circle" src="img/FelixMichel_2018_Kopf.jpg">
         			<raw content="{ opts.content[0].nav[1].content }"></raw>
         		<p>
         		<p class="intro" if={active_nav_item == "contact"}>
@@ -25,8 +25,8 @@
         	</div>
     	
     		<div class="col onethird social">
-    			» <a class="link" href="">Twitter<br /></a>
-        		» <a class="link" href="">Github</a>
+    			» <a class="link" href="https://twitter.com/felixmichel" target="_blank">Twitter<br /></a>
+        		» <a class="link" href="https://github.com/felixmichel" target="_blank">Github</a>
     		</div>
 
 

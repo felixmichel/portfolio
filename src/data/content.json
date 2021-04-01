@@ -1,74 +1,180 @@
 [
   {
-  	"nav": [
-    { "title": "Projekte", "id": "projects", "content": "Hallo. Ich entwerfe und entwickle Webanwendungen und Datenvisualisierungen. Hier sind meine Lieblingsprojekte, an denen ich in den letzten Jahren bei <a class='link' href='https://flourish.studio/' target='_blank'>Flourish</a>, <a class='link' href='https://correctiv.org/' target='_blank'>Correctiv</a> und der <a class='link' href='https://tageswoche.ch/' target='_blank'>TagesWoche</a> mitgearbeitet habe." },
-    { "title": "Über mich", "id": "about", "content": "Zurzeit arbeite ich als Datenjournalist und News Developer bei der <a href='https://www.tageswoche.ch' class='link' target='_blank'>TagesWoche</a>. Ich setze mich intensiv mit den Themen Datenjournalismus, Storytelling und Geschäftsmodelle im Online-Journalismus auseinander. Redaktionell liegt mein Schwerpunkt auf datengetriebenen Geschichten. Ich beschaffe und analysiere Daten sowohl für eigene Artikel als auch für Artikel anderer Redaktionsmitglieder. Zudem kümmere ich mich um die Visualisierung der Daten in Form von Tabellen, Diagrammen und Karten.<br><br>Von August 2017 bis Januar 2018 habe ich für <a href='https://flourish.studio/' class='link' target='_blank'>Flourish</a>, ein Datenvisualisierungs-Studio in London, gearbeitet. In dieser Zeit habe ich unterschiedliche Visualisierungen (<a href='https://app.flourish.studio/@flourish/election-results-chart' target='_blank' class='link'>Balkendiagramm</a>, <a href='https://app.flourish.studio/@flourish/slope-chart' target='_blank' class='link'>Slope-Chart</a>, <a href='https://app.flourish.studio/@felixmichel/bubble-chart' target='_blank' class='link'>Bubble-Chart</a>, <a href='https://app.flourish.studio/@flourish/map-austria-communities' target='_blank' class='link'>Maps</a>) entworfen und entwickelt, Daten analysiert und Inhalte für Medienorganisationen aufbereitet.<br><br>Im Oktober 2016 habe ich von <a class='link' href='https://medium.com/google-news-lab/introducing-our-news-lab-fellows-in-germany-switzerland-and-austria-6167f1fb0a67' target='_blank'>Google News Lab</a> ein Stipendium erhalten, um als Datenjournalist bei Correctiv zu arbeiten. In dieser Zeit habe ich Daten zum Meeresspiegel analysiert und in einem <a href='https://searise.correctiv.org/de/' target='_blank' class='link'>interaktiven Scrollytelling</a> publiziert.<br><br>Ich habe einen geisteswissenschaftlichen Hintergrund. Nach einem Bachelor in Übersetzen an der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) habe ich ein Jahr an der Uni Zürich Computerlinguistik und Arabistik studiert. Anschliessend habe ich Sprach- und Kommunikationswissenschaften an der Uni Basel studiert und mit einem <a href='https://www.unibas.ch/de/Studium/Studienangebot/Studiengaenge-faecher/Sprache-und-Kommunikation-MA.html' target='_blank' class='link'>Master of Arts in Sprache und Kommunikation</a> abgeschlossen." },
-    { "title": "Kontakt", "id": "contact", "content": "Sie haben eine Frage oder wollen mit mir zusammenarbeiten? Schreiben Sie mir eine E-Mail an <a class='link' href='mailto:hallo@felixmichel.org'>hallo(at)felixmichel.org</a> oder auch gerne eine <a href='https://keybase.io/felixmichel' target='_blank' class='link'>verschlüsselte Nachricht</a>." }
+    "nav": [
+      {
+        "title": "Projekte",
+        "id": "projects",
+        "content": "Hallo, ich bin Felix und entwerfe und entwickle interaktive Webanwendungen und Datenvisualisierungen. Hier sind ausgewählte Projekte, an denen ich in den letzten Jahren bei <a href='https://www.srf.ch/data' class='link' target='_blank'>SRF Data</a>, <a class='link' href='https://flourish.studio/' target='_blank'>Flourish</a>, <a class='link' href='https://correctiv.org/' target='_blank'>Correctiv</a> und der <a class='link' href='https://tageswoche.ch/' target='_blank'>TagesWoche</a> mitgearbeitet habe."
+      },
+      {
+        "title": "Über mich",
+        "id": "about",
+        "content": "Zurzeit bin ich als Datenjournalist bei <a href='https://www.srf.ch/data' class='link' target='_blank'>SRF Data</a> angestellt. Ich arbeite in den Bereichen Datenjournalismus, interaktives Storytelling und Webentwicklung. Mein redaktioneller Schwerpunkt liegt auf datengetriebenen Geschichten. Ich beschaffe und analysiere Daten, entwerfe Datenvisualisierungen und programmiere Webanwendungen.<br><br>Von August 2017 bis Januar 2018 habe ich für <a href='https://flourish.studio/' class='link' target='_blank'>Flourish</a>, ein Datenvisualisierungs-Studio in London, gearbeitet. In dieser Zeit habe ich unterschiedliche Visualisierungen (<a href='https://app.flourish.studio/@flourish/election-results-chart' target='_blank' class='link'>Balkendiagramm</a>, <a href='https://app.flourish.studio/@flourish/slope-chart' target='_blank' class='link'>Slope-Chart</a>, <a href='https://app.flourish.studio/@felixmichel/bubble-chart' target='_blank' class='link'>Bubble-Chart</a>, <a href='https://app.flourish.studio/@flourish/map-austria-communities' target='_blank' class='link'>Maps</a>) entworfen und entwickelt, Daten analysiert und Inhalte für Medienorganisationen aufbereitet.<br><br>Im Oktober 2016 habe ich von <a class='link' href='https://medium.com/google-news-lab/introducing-our-news-lab-fellows-in-germany-switzerland-and-austria-6167f1fb0a67' target='_blank'>Google News Lab</a> ein Stipendium erhalten, um als Datenjournalist bei Correctiv zu arbeiten. In dieser Zeit habe ich Daten zum Meeresspiegel analysiert und in einem <a href='https://searise.correctiv.org/de/' target='_blank' class='link'>interaktiven Scrollytelling</a> publiziert.<br><br>Ich habe einen geisteswissenschaftlichen Hintergrund. Nach einem Bachelor in Übersetzen an der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) habe ich ein Jahr an der Uni Zürich Computerlinguistik und Arabistik studiert. Anschliessend habe ich Sprach- und Kommunikationswissenschaften an der Uni Basel studiert und mit einem <a href='https://www.unibas.ch/de/Studium/Studienangebot/Studiengaenge-faecher/Sprache-und-Kommunikation-MA.html' target='_blank' class='link'>Master of Arts in Sprache und Kommunikation</a> abgeschlossen."
+      },
+      {
+        "title": "Kontakt",
+        "id": "contact",
+        "content": "Sie haben eine Frage oder wollen mit mir zusammenarbeiten? Schreiben Sie mir eine E-Mail an <a class='link' href='mailto:hallo@felixmichel.org'>hallo(at)felixmichel.org</a> oder auch gerne eine <a href='https://keybase.io/felixmichel' target='_blank' class='link'>verschlüsselte Nachricht</a>."
+      }
     ],
     "main": [
-    {
+      {
+        "title": "Automatiserte Covid-19-Berichterstattung",
+        "image": "img/5c824f.jpg",
+        "description": "Das Team von SRF Data (Julian Schmidli, Pascal Albisser, Lukas Frischknecht und ich) haben mittlerweile die Berichterstattung über die Covid-19-Pandemie mehr als ein Jahr lang begleitet. Ich habe dabei monatelang recherchiert, bei der Entwicklung eines Python-Backend zur automatisierten Datenaufbereitung mitgearbeitet und einige, interaktive Datenvisualisierungen gestaltet. Teil unserer automatisierten Berichterstattung ist zudem ein internes Briefing an die unterschiedlichen SRF-Sendungen, um die Daten möglichst einheitlich über alle Kanäle zu publizieren.",        
+        "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/coronavirus-grafik-so-entwickeln-sich-die-corona-zahlen-in-der-schweiz",
+            "text": "Dashboard Schweiz"
+          },
+          {
+            "url": "https://www.srf.ch/news/schweiz/coronavirus-grafik-so-ausgelastet-sind-die-intensivstationen-wegen-corona",
+            "text": "Dashboard Intensivstationen"
+          },
+          {
+            "url": "https://www.srf.ch/news/international/karte-und-grafiken-in-diesen-regionen-europas-wuetet-corona-gerade-besonders",
+            "text": "Dashboard Europa"
+          },
+          {
+            "url": "https://www.srf.ch/news/international/coronavirus-grafik-faelle-impfungen-uebersterblichkeit-corona-zahlen-weltweit",
+            "text": "Dashboard International"
+          }
+        ]
+      },
+      {
+        "title": "Die grössten Sorgen der Schweiz",
+        "image": "img/dc601e.jpg",
+        "description": "Wie eröffnet man die datengetriebene Wahlberichterstattung zu einem Zeitpunkt, wo sich noch gar niemand für Wahlen interessiert? Dies war die Herausforderung bei diesem Projekt. Unser Ansatz: «Was bisher geschah». Unser Stück zeigt, wie sich die Sorgen der Bevölkerung und die Politik in einem Wechselspiel beeinflussen und wagte eine Prognose, wie sich dies in diesem Wahljahr verhalten könnte. Die Visualisierung gewann beim Kantar «Information is beautiful Awards 2019» in der Kategorie «News & Current Affairs» den zweiten Preis.",
+        "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/wahlen-2019/wahlen-2019-die-groessten-sorgen-der-schweiz-und-womit-sie-zusammenhaengen",
+            "text": "Zum Artikel"
+          },
+
+          {
+            "url": "https://srfdata.github.io/2019-06-worries/",
+            "text": "Code der Datenanalyse"
+          }
+        ]
+      },
+      {
+        "title": "Effekt des Klimawandels auf den Wohnort",
+        "image": "img/b0b603.jpg",
+        "description": "Wie wird der Klimawandel vor der eigenen Haustür fassbar? Für diese Frage haben wir die Klimaszenarien der ETH Zürich analysiert. Diese Szenarien modellieren hochaufgelöste Wetterdaten für die Schweiz. Dadurch konnten wir für jede Schweizer Gemeinde den Niederschlag, die Temperatur oder auch die Schneetage in den nächsten 15, 30 oder auch 50 Jahren berechnen.",
+        "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/so-ist-die-schweiz-betroffen-diesen-effekt-hat-der-klimawandel-auf-ihren-wohnort",
+            "text": "Zum Artikel"
+          },
+          {
+            "url": "https://srfdata.github.io/2019-11-auswirkungen-klimawandel/",
+            "text": "Code der Datenanalyse"
+          }
+        ]
+      },
+      {
+        "title": "Gesichtserkennung im Eigenbau",
+        "image": "img/9504b9.jpg",
+        "description": "Wie berichtet man über das Gefahrenpotenzial eines Algorithmus? In dem man ihn selbst einsetzt. Timo Grossenbacher und ich haben eine Suchmaschine für Gesichter gebaut. Das Resultat erschreckt: Unsere Maschine erkannte selbst Personen im Hintergrund von Bildern. Der Artikel veranschaulicht, wie eine künstliche Intelligenz Gesichter in Bildern findet und welche Gefahren die Technologie birgt.",        
+        "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/automatische-gesichtserkennung-so-einfach-ist-es-eine-ueberwachungsmaschine-zu-bauen?fbclid=IwAR2O3jZMaRAkR9kJWOoaIYjUDo7qCI1VHKvDUM6V9Ul4VXHRvqjl5sWTNx4",            
+            "text": "Zum Artikel"
+          }
+        ]
+      },
+      {
+        "title": "Die grosse Nachwahlanalyse in Grafiken",
+        "image": "img/683beb.jpg",
+        "description": "Mit unserer Nachwahlanalyse konnten die Leser:innen am nächsten Morgen nach den eidgenössischen Wahlen tief in die politischen Untiefen der Schweiz eintauchen. Mit Analysen bis auf die Gemeindeebene haben wir den Wahlsonntag aufbereitet und einen umfassenden Blick auf die Wahlen ermöglicht.",
+         "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/wahlen-2019/historischer-sieg-der-gruenen-die-grosse-nachwahlanalyse-in-grafiken",
+            "text": "Zum Artikel"
+          }
+        ]
+      },
+      {
+        "title": "Wie das Parlament die Wähler abbildet – und wie nicht",
+        "image": "img/69d6bc.jpg",
+        "description": "Wie gut repräsentiert das Parlament die Bevölkerung bei Merkmalen wie Alter, Geschlecht oder Religion? Welche Bevölkerungsgruppen sind übervertreten – und welche fehlen? Und welche Rolle spielt das überhaupt? Wir haben die Daten der Parlamentarierinnen und Parlamentarier ausgewertet und mit der ständigen Wohnbevölkerung verglichen.",
+        "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/wahlen-2019/wahlen-2019-wie-das-parlament-die-waehler-abbildet-und-wie-nicht",
+            "text": "Zum Artikel"
+          },
+          {
+            "url": "https://srfdata.github.io/2019-08-representation/",
+            "text": "Code der Datenanalyse"
+          }
+        ]
+      },
+      {
+        "title": "Diese 4600 Kandidierenden wollen in den Nationalrat",
+        "image": "img/ead0cd.jpg",
+        "description": "4600: So hoch ist die Anzahl der Kandidierenden, die am 20. Oktober 2019 einen der 200 Nationalratssitze ergattern wollen. So viele Personen haben sich noch nie zur Wahl gestellt. In einer interaktiven Grafik (mit ganz schön viel Bling-Bling) haben wir die Unterschiede und Gemeinsamkeiten der Kandidierenden visualisiert.",
+        "links": [
+          {
+            "url": "https://www.srf.ch/news/schweiz/wahlen-2019/wahlen-2019-diese-4600-kandidierenden-wollen-in-den-nationalrat",
+            "text": "Zum Artikel"
+          }
+        ]
+      },
+      {
+        "title": "Velounfälle in Basel",
+        "image": "img/bikemap.jpg",
+        "description": "Velos sind meine grosse Leidenschaft. Und ich liebe es mit meinem Velo durch die Stadt zu düsen. Aber das ist auch extrem gefährlich. Wie gefährlich, wollte ich wissen und habe dafür die Unfalldaten vom Bundesamt für Verkehr über die API heruntergeladen und in einem interaktiven Storytelling aufbereitet. Fazit: In Basel gibt es elf sehr gefährliche Stellen für Velofahrerinnen und Velofahrer.",
+        "links": [
+          {
+            "url": "https://tageswoche.ch/stadtleben/hier-kommen-velofahrer-in-basel-zu-fall/",
+            "text": "Zum Artikel"
+          },
+          {
+            "url": "https://medium.com/@felixmichel/how-we-mapped-all-registered-bike-accidents-in-basel-f4ec0bc2a6be",
+            "text": "Werkstattbericht"
+          },
+          {
+            "url": "https://github.com/TagesWoche/bikemap",
+            "text": "Code für Storytelling"
+          },
+          {
+            "url": "https://github.com/TagesWoche/bikemap_notebook",
+            "text": "Code der Datenanalyse"
+          }
+        ]
+      },
+
+      {
         "title": "Bundestagswahl 2017",
         "image": "img/bundestagswahl2017.jpg",
         "description": "Für Flourish, ein Data Visualisation Studio aus London, habe ich für die Bundestagswahl 2017 zusammen mit <a class='link' href='http://daanlouter.com/' target='_blank'>Daan Louter</a> eine Übersichtsseite mit Live-Resultaten erstellt. Die Resultate haben wir direkt vom Bundeswahlleiter automatisiert bezogen und auf verschiedenen Karten sowie mit interaktiven Grafiken visualisiert. Wir konnten unseren Code erneut für die <a class='link' href='https://flourish.studio/examples/austrian-elections/' target='_blank'>Nationalratswahl 2017 in Österreich</a> verwenden und ebenfalls die Resultate live zugänglich machen.",
         "links": [
-        	{ "url": "https://flourish.studio/examples/german-elections/", "text": "zur Übersichtsseite" },
-        	{ "url": "https://github.com/felixmichel/german-elections-data", "text": "Code & Analyse" }
+          {
+            "url": "https://flourish.studio/examples/german-elections/",
+            "text": "Zum Dashboard"
+          },
+          {
+            "url": "https://github.com/felixmichel/german-elections-data",
+            "text": "Code & Analyse"
+          }
         ]
-    },
-    {
+      },
+      {
         "title": "Steigende Meere",
         "image": "img/sharing.jpg",
-        "description": "Das Webprojekt <a class='link' href='https://searise.correctiv.org/de/' target='_blank'>«Steigene Meere»</a> ist auf der Shortlist für den <a class='link' href='https://www.nannen-preis.de/download/nannen_preis2018_shortlists.pdf' target='_blank'>Nannen Preis 2018</a>. Angefangen hat das Projekt mit einem <a class='link' href='https://medium.com/google-news-lab/introducing-our-news-lab-fellows-in-germany-switzerland-and-austria-6167f1fb0a67' target='_blank'>Google News Lab Fellowship</a> beim gemeinnützigen Recherchezentrum Correctiv. In dieser Zeit habe ich wissenschaftliche Daten zum Meeresspiegel recherchiert, analysiert und gemeinsam mit <a class='link' href='http://simonjockers.de/' target='_blank'>Simon Jockers</a> visualisiert. Insgesamt haben wir 700'000 Pegeldaten weltweit untersucht und konnten in einem Scrollytelling zeigen, wie stark die Meere in den letzten Jahren angestiegen sind.",
+        "description": "Das Webprojekt <a class='link' href='https://searise.correctiv.org/de/' target='_blank'>«Steigende Meere»</a> hat den <a class='link' href='http://dfjp.eu/portfolio-items/preistraeger-18-2/?portfolioCats=89' target='_blank'>Deutsch-Französischen Journalistenpreis in der Kategorie Multimedia</a> gewonnen und war auf der Shortlist für den <a class='link' href='https://www.nannen-preis.de/download/nannen_preis2018_shortlists.pdf' target='_blank'>Nannen Preis 2018</a>. Angefangen hat das Projekt mit einem <a class='link' href='https://medium.com/google-news-lab/introducing-our-news-lab-fellows-in-germany-switzerland-and-austria-6167f1fb0a67' target='_blank'>Google News Lab Fellowship</a> beim gemeinnützigen Recherchezentrum Correctiv. In dieser Zeit habe ich wissenschaftliche Daten zum Meeresspiegel recherchiert, analysiert und gemeinsam mit <a class='link' href='http://simonjockers.de/' target='_blank'>Simon Jockers</a> visualisiert. Insgesamt haben wir 700'000 Pegeldaten weltweit untersucht und konnten in einem Scrollytelling zeigen, wie stark die Meere in den letzten Jahren angestiegen sind.",
         "links": [
-            { "url": "https://searise.correctiv.org/de/", "text": "zum Artikel" },
-            { "url": "https://github.com/correctiv/sealevel-notebook", "text": "Code & Analyse" },
-            { "url": "https://medium.com/@felixmichel/werkstattbericht-steigende-meere-110676954a4b", "text": "Werkstattbericht" }
-            
+          { "url": "https://searise.correctiv.org/de/", "text": "zum Artikel" },
+          {
+            "url": "https://github.com/correctiv/sealevel-notebook",
+            "text": "Code & Datenanalyse"
+          },
+          {
+            "url": "https://medium.com/@felixmichel/werkstattbericht-steigende-meere-110676954a4b",
+            "text": "Werkstattbericht"
+          }
         ]
-    },
-    {
-        "title": "TagesWoche Relaunch",
-        "image": "img/StoryStream_TeaserLaunch_Desktop.jpg",
-        "credit": "Bild: getty images/Montage: Nils Fisch",
-        "description": "Zusammen mit <a href='http://www.webding.ch/' target='_blank' class='link'>Stefan Kempf</a> und <a href='http://thomnagy.com/' target='_blank' class='link'>Thom Nagy</a> habe ich mich über ein Jahr lang mit dem Relaunch der TagesWoche beschäftigt. Das Projekt umfasste Brainstorming, CMS-Evaluation, Interaktionsdesign, visuelles Design, Inhaltsmigration und Entwicklung. Die TagesWoche verwendet nun ein performantes, Wordpress basiertes System mit einem <a class='link' href='https://beta.frontkit.io/' target='_blank'>WYSIWIG-Editor</a> für die Inhaltserstellung. Zudem verfügt die neue Webseite über ein Community-Modul, das wir als <a class='link' href='https://github.com/felixmichel/german-elections-data' target='_blank'>Wordpress-Plugin</a> veröffentlicht haben.",
-        "links": [
-        	{ "url": "https://tageswoche.ch/form/editorial/das-ist-die-neue-tageswoche/", "text": "zum Artikel" },
-        	{ "url": "https://github.com/felixmichel/german-elections-data", "text": "zum Wordpress-Plugin" }
-        ]
-    },
-    {
-        "title": "City Guide",
-        "image": "img/soetwa.jpg",
-        "credit": "Bild: Hans-Jörg Walter",
-        "description": "«72 Stunden in Basel» – gemeinsam mit der Leserschaft hat die TagesWoche einen interaktiven Reiseführer für Basel erstellt. Für den Reiseführer haben <a href='http://www.webding.ch/' target='_blank' class='link'>Stefan Kempf</a> und ich ein Mini-CMS basierend auf AngularJS entwickelt. Die Redaktoren konnten den Inhalt in eine Google Tabelle einfüllen und Änderungen waren in Echtzeit sichtbar.",
-        "links": [
-        	{ "url": "http://interaktiv.tageswoche.ch/2016/cityguide/index.html", "text": "zum Reiseführer" },
-        	{ "url": "https://tageswoche.ch/allgemein/wir-spendieren-basel-einen-reisefuehrer/", "text": "über das Projekt" },
-        	{ "url": "https://github.com/TagesWoche/72_hours_Basel", "text": "zum Code" }
-
-        ]
-    },
-    {
-        "title": "Der Basler Immobilienmarkt im Überblick",
-        "image": "img/heroteaser.jpg",
-        "credit": "Bild: Hans-Jörg Walter",
-        "description": "In einer umfassenden Datenrecherche für die TagesWoche haben <a href='https://tageswoche.ch/author/jeremias-schulthess/' target='_blank' class='link'>Jeremias Schulthess</a>, <a href='https://tageswoche.ch/author/matthias-oppliger/' target='_blank' class='link'>Matthias Oppliger</a> und ich gezeigt, wo in Basel die meisten Häuser gekauft und verkauft werden. Wir haben die Daten automatisiert aus dem Kantonsblatt heruntergeladen. Da die Daten in einer wenig strukturierten Form vorlagen, mussten wir diese mit Python-Skripts in eine durchsuchbare und filterbare Form bringen. Die verwendeten Skripts und die gesamte Recherchearbeit sind auf Github zugänglich.",
-        "links": [
-        	{ "url": "https://tageswoche.ch/stadtleben/kaufen-und-verkaufen-der-basler-immobilienmarkt-im-ueberblick/", "text": "zum Artikel" },
-        	{ "url": "https://github.com/TagesWoche/grundbuch_scrape", "text": "Code & Analyse" }
-
-        ]
-    },
-    {
-        "title": "Frauen stimmen anders, Männer auch",
-        "image": "img/storyquiz.png",
-        "description": "Gemeinsam mit <a class='link' href='http://annawiederkehr.com/' target='_blank'>Anna Wiederkehr</a> und <a class='link' href='https://tageswoche.ch/author/andrea-fopp/' target='_blank'>Andrea Fopp</a> haben wir ein interaktives Quiz über das Abstimmungsverhalten von Frauen und Männern entworfen. Wir haben dafür Volksinitiativen in der Schweiz seit 1985 angesehen und die Abstimmungsergebnisse von einer Expertin einschätzen lassen. Die Nutzerinnen und Nutzer wurden beim Quiz mit Geschlechter-Stereotypen konfrontiert und mussten herausfinden, welche Vorurteile zutreffen.",
-        "links": [
-        	{ "url": "http://labs.tageswoche.ch/region/interaktives/storyQuiz/", "text": "zum Quiz" },
-        	{ "url": "https://github.com/felixmichel/storyQuiz", "text": "zum Code" }
-
-        ]
-    }
-]
-}
+      }
+    ]
+  }
 ]
